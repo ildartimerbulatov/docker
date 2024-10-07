@@ -1,0 +1,16 @@
+Запущенные контейнеры
+Web контейнеры:
+
+docker-web-1 (nginx, порт 8083)
+lab_stack_web.1.v5bxh96frpubmubyalzufkzo5 (nginx, порт 80)
+prod_stack_web.1.qahgz2uquuc0kqgg7a2csp83f (nginx, порт 80)
+dev_stack_web.1.gkth91gz8va69uzoqosb9exi8 (nginx, порт 80)
+DB контейнеры:
+
+docker-db-1 (MySQL, порт 3308)
+dev_stack_db.1.iscl957c2s7jrr9s17j9ec9qn (MySQL, порт 3306)
+lab_stack_db.1.n6h7ll6lx3tph62elq8poadmr (MySQL, порт 3306)
+prod_stack_db.1.k4hoinygoagndgrnktg7ahks8 (MySQL, порт 3306)
+Успешно запущены контейнеры для каждого из трех окружений (dev, prod, lab).
+Каждый контейнер веб-сервера (nginx) и базы данных (MySQL) работает корректно.
+Порты настроены, обращаться к веб-серверу через порты 8083 (для docker-web) и 80 (для остальных).
